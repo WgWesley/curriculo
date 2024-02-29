@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color:rgb(1,11,22);
+    --dark-mode-bg-url: url(./assets/moon-stars.svg);
+}
+#container{
+    --text-color:white;
+}
+.dark-mode{
+    --text-color:white;
+}
+
+
+#container{
+    font-size: 25px;
+    text-align:center;
+    background: rgb(1,11,22);
+    width: 100%;
+    max-width: auto;
+    max-height: auto;
+    margin: 0px auto 0px;
+    padding: 25px;
+}
+
+body {
+    text-align: center;
+    padding: 0px;
+    background: white;
+    font-size: 25px;
+    transition: background  0.5s;
+    
+}
+
+body *{
+    font-family: Verdana, sans-serif;
+    color: var(--text-color)
+}
+
+.dark-mode {
+    background-color: rgb(1,11,15);
+    
+
+}
+
+button{
+    width: 0px;
+    margin: 0px auto;
+    background: rgb(255,255,255) var(--dark-mode-bg-url) no-repeat center;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+button:hover{
+    width: 32px;
+    height: 32px;
+    outline: 8px solid;
+    color: rgb(255,255,255,0.2);
+}
+
+body h2{
+    font-size: 30px;
+    padding: 15px;
+}
+ul {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   padding: 15px 0;
+}
+
+ul li{
+    align-items: left;
+    justify-content: center;
+}
