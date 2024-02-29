@@ -19,7 +19,7 @@
 
 
 #container{
-    font-size: 25px;
+    font-size: 18px;
     text-align:center;
     background: rgb(1,11,22);
     max-width: auto;
@@ -27,19 +27,22 @@
     margin: 0px auto 0px;
     padding: 25px;
 }
-#container p{
-    text-align: left;
-    height: 35px;
+#container p {
+    display: flex;
     font-size: large;
+    text-align:left;
+    max-width: auto;
+    max-height: auto;
+    margin: 20px auto 0px;
+    padding: 10px;
 }
 
 body {
     text-align: left;
-    font-size: 25px;
-    height: 100vh;
+    font-size: large;
     transition: background  0.5s;
 
-    padding: 0;
+    padding: 0px;
     
 }
 
@@ -55,10 +58,11 @@ body *{
 }
 
 button{
-    width: 0px;
+    width: 32px;
+    height: 32px;
     margin: 0px auto;
     background: rgba(255, 255, 255, 0.644) var(--light-mode-bg-url) no-repeat center;
-    padding: 15px;
+    padding: 5px;
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.644);
 }
@@ -92,7 +96,7 @@ ul li{
     
 }
 h1{
-    height: 85px;
+    height: 100px;
 }
 h2{
     padding: 20px;
