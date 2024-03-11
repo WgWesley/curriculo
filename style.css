@@ -109,11 +109,23 @@ ul li{
 
 div li{
     list-style: none;
-    padding: 15px 50px;
+    padding: 15px 20px;
 }
 div ol{
 padding: 15px 20px;
 
+}
+div ul li{
+    
+    font-size: large;
+    align-items: left;
+    justify-content: left; 
+    list-style: disc;
+    padding: 0px 0px; 
+}
+p{
+    text-align: right;
+    font-weight: bold;
 }
 
 
